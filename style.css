@@ -33,8 +33,9 @@ a {
   font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
-  display: block;
+  display: inline-block;
   text-decoration: none;
+  color: white;
 }
 
 .box {
@@ -70,11 +71,11 @@ img {
   margin-bottom: 5px;
   padding: 10px;
   text-align: center;
+  width: 100%;
   }
 
-.twitter a:hover {
+.twitter:hover {
   background-color: #0b7bc1;
-  color: white;
 }
 
 .FB {
@@ -82,11 +83,11 @@ img {
   background-color: #3b5998;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
-.FB a:hover {
+.FB:hover {
   background-color: #2b406e;
-  color: white;
 }
 
 .prvniodstavec {
